@@ -1,0 +1,6 @@
+@NotficacoesMultcanais_HostAddress = http://localhost:5277
+
+GET {{NotficacoesMultcanais_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

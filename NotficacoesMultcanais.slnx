@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/API/">
+    <Project Path="NotficacoesMultcanais/NotficacoesMultcanais.csproj" />
+  </Folder>
+  <Folder Name="/Nucleo/">
+    <Project Path="NotficacoesMultcanais.Domain/NotficacoesMulticanais.Domain.csproj" />
+    <Project Path="NotficacoesMulticanais.Application/NotficacoesMulticanais.Application.csproj" />
+    <Project Path="NotficacoesMulticanais.Infraestructure/NotficacoesMulticanais.Infraestructure.csproj" />
+  </Folder>
+</Solution>
