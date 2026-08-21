@@ -10,12 +10,17 @@ public class ResultadoEnvio
     public string? Destinatario { get; set; }
     public DateTime ProcessadoEm { get; set; }
 
-    public ResultadoEnvio(bool sucesso, string? mensagemErro, TipoNotificacao canal, string? destinatario)
+    public static ResultadoEnvio Criar(bool sucesso, string? mensagemErro, TipoNotificacao canal, string? destinatario)
     {
-        Sucesso = sucesso;
-        MensagemErro = mensagemErro;
-        Canal = canal;
-        Destinatario = destinatario;
-        ProcessadoEm = DateTime.UtcNow;
+        var resultado = new ResultadoEnvio
+        {
+            Sucesso = sucesso,
+            MensagemErro = mensagemErro,
+            Canal = canal,
+            Destinatario = destinatario
+        };
+
+        return resultado;
     }
 }
+

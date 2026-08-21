@@ -15,14 +15,19 @@ public class Notificacao
 
     private Notificacao() { }
 
-    public Notificacao(string destinatario, string mensagem, string assunto, TipoNotificacao tipo)
+    public static Notificacao Criar(string destinatario, string mensagem, string assunto, TipoNotificacao tipo)
     {
-        Id = Guid.NewGuid();
-        Destinatario = destinatario;
-        Mensagem = mensagem;
-        Assunto = assunto;
-        Tipo = tipo;
-        Status = StatusNotficacao.Pendente;
-        DataCriacao = DateTime.UtcNow;
+        var notificacao = new Notificacao
+        {
+            Id = Guid.NewGuid(),
+            Destinatario = destinatario,
+            Mensagem = mensagem,
+            Assunto = assunto,
+            Tipo = tipo,
+            Status = StatusNotficacao.Pendente,
+            DataCriacao = DateTime.UtcNow
+        };
+
+        return notificacao;
     }
 }

@@ -13,7 +13,23 @@ public class EmailValidator : INotficacoesService
 
     public ResultadoEnvio Status(Notificacao notificacao)
     {
-        
-        return new ResultadoEnvio(true, null, TipoNotificacao.Email, notificacao.Destinatario);
+        var email = notificacao.Destinatario.Trim();
+
+        if (string.IsNullOrWhiteSpace(email))
+            return ResultadoEnvio.Criar(false, "Formato de E-mail Inválido! ", TipoNotificacao.Email, notificacao.Destinatario);
+
+
+        if (!email.Contains('@') || !email.Contains('.'))
+            return ResultadoEnvio.Criar(false, "Formato de E-mail Inválido! ", TipoNotificacao.Email, notificacao.Destinatario);
+
+        var partes = email.Split('@');
+        if (partes.Length != 2 || string.IsNullOrWhiteSpace(partes[0]) || string.IsNullOrWhiteSpace(partes[1]))
+            return ResultadoEnvio.Criar(false, "Formato de e-mail inválido.", TipoNotificacao.Email, notificacao.Destinatario);
+
+
+
+
+
+        return ResultadoEnvio.Criar(true, "E-mail válido.", TipoNotificacao.Email, notificacao.Destinatario);
     }
 }
