@@ -7,9 +7,9 @@ namespace NotficacoesMulticanais.Infraestructure.Repository;
 
 public class NotificacaoRepository : INotificacaoRepository
 {
-    private readonly NotficacoesMulticanaisDbContext _context;
+    private readonly NotificacoesMulticanaisDbContext _context;
 
-    public NotificacaoRepository(NotficacoesMulticanaisDbContext context)
+    public NotificacaoRepository(NotificacoesMulticanaisDbContext context)
     {
         _context = context;
     }

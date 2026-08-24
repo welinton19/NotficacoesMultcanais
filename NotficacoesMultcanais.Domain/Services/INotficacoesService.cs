@@ -9,4 +9,4 @@ public interface INotficacoesService
     TipoNotificacao Notificacao { get; }
     ResultadoEnvio Status (Notificacao notificacao);
 }
-}
+

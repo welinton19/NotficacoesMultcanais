@@ -11,16 +11,16 @@ namespace NotficacoesMulticanais.Infraestructure.Injection;
 public static class InjectionDependency
 {
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
-    {       
-        
-        services.AddDbContext<NotficacoesMulticanaisDbContext>(options => 
+    {
+
+        services.AddDbContext<NotificacoesMulticanaisDbContext>(options =>
         {
-            options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"),
-                (b => b.MigrationsAssembly("NotficacoesMulticanais.Infraestructure")));
+            options.UseNpgsql(configuration.GetConnectionString("NotificacoesConnection"),
+                b => b.MigrationsAssembly("NotficacoesMulticanais.Infraestructure"));
         });
 
-        
-         services.AddScoped<INotificacaoRepository, NotificacaoRepository>();
+
+        services.AddScoped<INotificacaoRepository, NotificacaoRepository>();
          services.AddScoped<IResultadoEnvioRepository, ResultadoEnvioRepository>();
 
         return services;
