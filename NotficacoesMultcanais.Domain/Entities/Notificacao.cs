@@ -13,7 +13,7 @@ public class Notificacao
     public DateTime DataCriacao { get; set; }
     public DateTime? DataEnvio { get; set; }
 
-    private Notificacao() { }
+    public Notificacao() { }
 
     public static Notificacao Criar(string destinatario, string mensagem, string assunto, TipoNotificacao tipo)
     {
