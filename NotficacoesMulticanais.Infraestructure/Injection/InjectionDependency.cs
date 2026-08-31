@@ -4,6 +4,9 @@ using NotficacoesMulticanais.Infraestructure.DATA;
 using Microsoft.EntityFrameworkCore;
 using NotficacoesMulticanais.Domain.Interface;
 using NotficacoesMulticanais.Infraestructure.Repository;
+using NotficacoesMulticanais.Infraestructure.Services;
+using NotficacoesMulticanais.Domain.Services;
+
 
 
 namespace NotficacoesMulticanais.Infraestructure.Injection;
@@ -21,7 +24,12 @@ public static class InjectionDependency
 
 
         services.AddScoped<INotificacaoRepository, NotificacaoRepository>();
-         services.AddScoped<IResultadoEnvioRepository, ResultadoEnvioRepository>();
+        services.AddScoped<IResultadoEnvioRepository, ResultadoEnvioRepository>();
+        services.AddScoped<IEmailService, EmailService>();
+        services.AddScoped<ISmsService, SmsService>();
+        services.AddHttpClient<IWhatsAppService, WhatsAppService>();
+
+
 
         return services;
     }

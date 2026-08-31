@@ -6,11 +6,12 @@ using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllers();
 
 
 //Injection of services
 builder.Services.AddInfrastructure(builder.Configuration);
-builder.Services.AddScoped<IEnviarNotficacaoUseCase,NotificacaoService>();
+builder.Services.AddScoped<IEnviarNotificacaoUseCase,NotificacaoService>();
 builder.Services.AddScoped<IObterNotificacaoUseCase,NotificacaoService>();
 
 builder.Services.AddOpenApi();
@@ -25,7 +26,11 @@ app.MapScalarApiReference(options =>
     options.Theme = ScalarTheme.DeepSpace;
 });
 
+//app.UseCors("AllowAll");
 app.UseHttpsRedirection();
+
+
+app.MapControllers();
 
 
 

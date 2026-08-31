@@ -5,7 +5,7 @@ using NotficacoesMulticanais.Domain.Interface;
 
 namespace NotficacoesMulticanais.Application.UseCases.Notificacoes;
 
-public class EnviarNotificacaoUseCase : IEnviarNotficacaoUseCase
+public class EnviarNotificacaoUseCase : IEnviarNotificacaoUseCase
 {
     private readonly INotificacaoRepository _notificacaoRepository;
 
@@ -14,14 +14,16 @@ public class EnviarNotificacaoUseCase : IEnviarNotficacaoUseCase
         _notificacaoRepository = notificacaoRepository;
     }
 
-    public async Task<NotficacaoResponse> EnviarNotificacaoAsync(NotificacaoRequest request)
+    
+
+    public async Task<NotficacaoResponse> ExecutarAsync(NotificacaoRequest request)
     {
         var notificacao = Notificacao.Criar(
-            request.Destinatario!,
-            request.Mensagem!,
-            request.Assunto,
-            request.Tipo
-        );
+           request.Destinatario!,
+           request.Mensagem!,
+           request.Assunto,
+           request.Tipo
+       );
 
         await _notificacaoRepository.AdicionarAsync(notificacao);
 
@@ -37,6 +39,4 @@ public class EnviarNotificacaoUseCase : IEnviarNotficacaoUseCase
             Sucesso = true
         };
     }
-
-    
 }

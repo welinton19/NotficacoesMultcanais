@@ -2,7 +2,7 @@
 
 namespace NotficacoesMulticanais.Application.InterfaceServices;
 
-public interface IObterNotificacaoUsecase
+public interface IObterNotificacaoUseCase
 {
-    Task<NotficacaoResponse> ExecutarAsync(Guid id);
+    Task<NotficacaoResponse?> ExecutarAsync(Guid id);
 }

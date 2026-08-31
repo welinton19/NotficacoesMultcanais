@@ -30,4 +30,14 @@ public class Notificacao
 
         return notificacao;
     }
+
+
+    public void AtualizarStatus(StatusNotficacao status)
+    {
+        Status = status;
+        if (status == StatusNotficacao.Enviado)
+        {
+            DataEnvio = DateTime.UtcNow;
+        }
+    }
 }

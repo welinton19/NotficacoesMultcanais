@@ -1,0 +1,25 @@
+FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS base
+USER $APP_UID
+WORKDIR /app
+EXPOSE 80
+
+
+FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+WORKDIR /src
+COPY ["NotficacoesMultcanais/NotficacoesMultcanais.csproj", "NotficacoesMultcanais/"]
+COPY ["NotficacoesMultcanais.Application/NotficacoesMultcanais.Application.csproj", "NotficacoesMultcanais.Application/"]
+COPY ["NotficacoesMultcanais.Domain/NotficacoesMultcanais.Domain.csproj", "NotficacoesMultcanais.Domain/"]
+COPY ["NotficacoesMultcanais.Infraestructure/NotficacoesMultcanais.Infraestructure.csproj", "NotficacoesMultcanais.Infraestructure/"]
+RUN dotnet restore "NotficacoesMultcanais/NotficacoesMultcanais.csproj"
+COPY . .
+WORKDIR "/src/NotficacoesMultcanais"
+RUN dotnet build "NotficacoesMultcanais.csproj" -c Release -o /app/build
+
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "NotficacoesMultcanais.csproj" -c Release -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "NotficacoesMultcanais.dll"]

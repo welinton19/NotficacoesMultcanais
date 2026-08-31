@@ -2,7 +2,7 @@
 
 namespace NotficacoesMulticanais.Application.InterfaceServices;
 
-public interface IEnviarNotficacaoUseCase
+public interface IEnviarNotificacaoUseCase
 {
     Task<NotficacaoResponse> ExecutarAsync(NotificacaoRequest request);
 }
