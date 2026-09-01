@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\welin\\source\\repos\\NotficacoesMultcanais\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93D85019-CF26-2CC8-DFF1-C06F6AFE6162}|NotficacoesMulticanais.Application\\NotficacoesMulticanais.Application.csproj|c:\\users\\welin\\source\\repos\\notficacoesmultcanais\\notficacoesmulticanais.application\\services\\notficacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D85019-CF26-2CC8-DFF1-C06F6AFE6162}|NotficacoesMulticanais.Application\\NotficacoesMulticanais.Application.csproj|solutionrelative:notficacoesmulticanais.application\\services\\notficacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{104DA3C8-B0B9-6F87-7EF8-696F8F092D72}|NotficacoesMulticanais.Infraestructure\\NotficacoesMulticanais.Infraestructure.csproj|c:\\users\\welin\\source\\repos\\notficacoesmultcanais\\notficacoesmulticanais.infraestructure\\services\\whatsappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{104DA3C8-B0B9-6F87-7EF8-696F8F092D72}|NotficacoesMulticanais.Infraestructure\\NotficacoesMulticanais.Infraestructure.csproj|solutionrelative:notficacoesmulticanais.infraestructure\\services\\whatsappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D85019-CF26-2CC8-DFF1-C06F6AFE6162}|NotficacoesMulticanais.Application\\NotficacoesMulticanais.Application.csproj|c:\\users\\welin\\source\\repos\\notficacoesmultcanais\\notficacoesmulticanais.application\\usecases\\notificacoes\\notificacaorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D85019-CF26-2CC8-DFF1-C06F6AFE6162}|NotficacoesMulticanais.Application\\NotficacoesMulticanais.Application.csproj|solutionrelative:notficacoesmulticanais.application\\usecases\\notificacoes\\notificacaorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1a7f2c3-8d4b-42e6-9f75-2a3b6c8e9d40}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotificacaoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\welin\\source\\repos\\NotficacoesMultcanais\\NotficacoesMulticanais.Application\\UseCases\\Notificacoes\\NotificacaoRequest.cs",
+              "RelativeDocumentMoniker": "NotficacoesMulticanais.Application\\UseCases\\Notificacoes\\NotificacaoRequest.cs",
+              "ToolTip": "C:\\Users\\welin\\source\\repos\\NotficacoesMultcanais\\NotficacoesMulticanais.Application\\UseCases\\Notificacoes\\NotificacaoRequest.cs",
+              "RelativeToolTip": "NotficacoesMulticanais.Application\\UseCases\\Notificacoes\\NotificacaoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T13:47:47.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NotficacaoService.cs",
+              "DocumentMoniker": "C:\\Users\\welin\\source\\repos\\NotficacoesMultcanais\\NotficacoesMulticanais.Application\\Services\\NotficacaoService.cs",
+              "RelativeDocumentMoniker": "NotficacoesMulticanais.Application\\Services\\NotficacaoService.cs",
+              "ToolTip": "C:\\Users\\welin\\source\\repos\\NotficacoesMultcanais\\NotficacoesMulticanais.Application\\Services\\NotficacaoService.cs",
+              "RelativeToolTip": "NotficacoesMulticanais.Application\\Services\\NotficacaoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-29T13:43:28.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WhatsAppService.cs",
+              "DocumentMoniker": "C:\\Users\\welin\\source\\repos\\NotficacoesMultcanais\\NotficacoesMulticanais.Infraestructure\\Services\\WhatsAppService.cs",
+              "RelativeDocumentMoniker": "NotficacoesMulticanais.Infraestructure\\Services\\WhatsAppService.cs",
+              "ToolTip": "C:\\Users\\welin\\source\\repos\\NotficacoesMultcanais\\NotficacoesMulticanais.Infraestructure\\Services\\WhatsAppService.cs",
+              "RelativeToolTip": "NotficacoesMulticanais.Infraestructure\\Services\\WhatsAppService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwDAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-28T17:18:52.731Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

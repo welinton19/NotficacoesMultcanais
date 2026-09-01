@@ -1,0 +1,16 @@
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMulticanais.Application\bin\Debug\net10.0\NotficacoesMulticanais.Application.deps.json
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMulticanais.Application\bin\Debug\net10.0\NotficacoesMulticanais.Application.dll
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMulticanais.Application\bin\Debug\net10.0\NotficacoesMulticanais.Application.pdb
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMulticanais.Application\obj\Debug\net10.0\NotficacoesMulticanais.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMulticanais.Application\obj\Debug\net10.0\NotficacoesMulticanais.Application.AssemblyInfoInputs.cache
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMulticanais.Application\obj\Debug\net10.0\NotficacoesMulticanais.Application.AssemblyInfo.cs
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMulticanais.Application\obj\Debug\net10.0\NotficacoesMulticanais.Application.csproj.CoreCompileInputs.cache
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMulticanais.Application\obj\Debug\net10.0\NotficacoesMulticanais.Application.sourcelink.json
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMulticanais.Application\obj\Debug\net10.0\NotficacoesMulticanais.Application.dll
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMulticanais.Application\obj\Debug\net10.0\refint\NotficacoesMulticanais.Application.dll
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMulticanais.Application\obj\Debug\net10.0\NotficacoesMulticanais.Application.pdb
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMulticanais.Application\obj\Debug\net10.0\ref\NotficacoesMulticanais.Application.dll
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMulticanais.Application\obj\Debug\net10.0\Notficac.DCC2D41D.Up2Date
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMulticanais.Application\bin\Debug\net10.0\NotficacoesMulticanais.Domain.dll
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMulticanais.Application\bin\Debug\net10.0\NotficacoesMulticanais.Domain.pdb
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMulticanais.Application\obj\Debug\net10.0\NotficacoesMulticanais.Application.csproj.AssemblyReference.cache

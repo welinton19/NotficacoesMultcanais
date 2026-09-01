@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "NotficacoesMultcanais.Controllers.NotificacaoController",
+    "Method": "EnviarNotificacao",
+    "RelativePath": "api/Notificacao/enviar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "NotficacoesMulticanais.Application.UseCases.Notificacoes.NotificacaoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NotficacoesMultcanais.Controllers.NotificacaoController",
+    "Method": "ObterStatusNotificacao",
+    "RelativePath": "api/Notificacao/status/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

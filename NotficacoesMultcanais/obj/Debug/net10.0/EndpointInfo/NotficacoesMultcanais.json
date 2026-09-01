@@ -1,0 +1,110 @@
+{
+  "openapi": "3.1.1",
+  "info": {
+    "title": "NotficacoesMultcanais | v1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://localhost:7063"
+    },
+    {
+      "url": "http://localhost:5277"
+    }
+  ],
+  "paths": {
+    "/api/Notificacao/enviar": {
+      "post": {
+        "tags": [
+          "Notificacao"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NotificacaoRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NotificacaoRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NotificacaoRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Notificacao/status/{id}": {
+      "get": {
+        "tags": [
+          "Notificacao"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "NotificacaoRequest": {
+        "type": "object",
+        "properties": {
+          "destinatario": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "mensagem": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "assunto": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "tipo": {
+            "$ref": "#/components/schemas/TipoNotificacao"
+          }
+        }
+      },
+      "TipoNotificacao": {
+        "type": "integer"
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Notificacao"
+    }
+  ]
+}

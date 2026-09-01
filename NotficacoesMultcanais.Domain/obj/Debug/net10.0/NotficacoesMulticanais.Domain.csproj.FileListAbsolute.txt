@@ -1,0 +1,13 @@
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMultcanais.Domain\bin\Debug\net10.0\NotficacoesMulticanais.Domain.deps.json
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMultcanais.Domain\bin\Debug\net10.0\NotficacoesMulticanais.Domain.dll
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMultcanais.Domain\bin\Debug\net10.0\NotficacoesMulticanais.Domain.pdb
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMultcanais.Domain\obj\Debug\net10.0\NotficacoesMulticanais.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMultcanais.Domain\obj\Debug\net10.0\NotficacoesMulticanais.Domain.AssemblyInfoInputs.cache
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMultcanais.Domain\obj\Debug\net10.0\NotficacoesMulticanais.Domain.AssemblyInfo.cs
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMultcanais.Domain\obj\Debug\net10.0\NotficacoesMulticanais.Domain.csproj.CoreCompileInputs.cache
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMultcanais.Domain\obj\Debug\net10.0\NotficacoesMulticanais.Domain.sourcelink.json
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMultcanais.Domain\obj\Debug\net10.0\NotficacoesMulticanais.Domain.dll
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMultcanais.Domain\obj\Debug\net10.0\refint\NotficacoesMulticanais.Domain.dll
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMultcanais.Domain\obj\Debug\net10.0\NotficacoesMulticanais.Domain.pdb
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMultcanais.Domain\obj\Debug\net10.0\ref\NotficacoesMulticanais.Domain.dll
+C:\Users\welin\source\repos\NotficacoesMultcanais\NotficacoesMultcanais.Domain\obj\Debug\net10.0\Notficac.EEEB1072.Up2Date
