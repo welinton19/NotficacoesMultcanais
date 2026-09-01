@@ -3,13 +3,12 @@ USER $APP_UID
 WORKDIR /app
 EXPOSE 8080
 
-
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
 COPY ["NotficacoesMultcanais/NotficacoesMultcanais.csproj", "NotficacoesMultcanais/"]
-COPY ["NotficacoesMultcanais.Application/NotficacoesMultcanais.Application.csproj", "NotficacoesMultcanais.Application/"]
-COPY ["NotficacoesMultcanais.Domain/NotficacoesMultcanais.Domain.csproj", "NotficacoesMultcanais.Domain/"]
-COPY ["NotficacoesMultcanais.Infraestructure/NotficacoesMultcanais.Infraestructure.csproj", "NotficacoesMultcanais.Infraestructure/"]
+COPY ["NotificacoesMultcanais.Application/NotificacoesMultcanais.Application.csproj", "NotificacoesMultcanais.Application/"]
+COPY ["NotificacoesMultcanais.Domain/NotificacoesMultcanais.Domain.csproj", "NotificacoesMultcanais.Domain/"]
+COPY ["NotificacoesMultcanais.Infraestructure/NotificacoesMultcanais.Infraestructure.csproj", "NotificacoesMultcanais.Infraestructure/"]
 RUN dotnet restore "NotficacoesMultcanais/NotficacoesMultcanais.csproj"
 COPY . .
 WORKDIR "/src/NotficacoesMultcanais"
