@@ -15,7 +15,6 @@ WORKDIR "/src/NotficacoesMultcanais"
 RUN dotnet build "NotficacoesMultcanais.csproj" -c Release -o /app/build
 
 FROM build AS publish
-ARG BUILD_CONFIGURATION=Release
 RUN dotnet publish "NotficacoesMultcanais.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
