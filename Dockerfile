@@ -7,7 +7,7 @@ FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
 COPY ["NotficacoesMultcanais/NotficacoesMultcanais.csproj", "NotficacoesMultcanais/"]
 COPY ["NotficacoesMulticanais.Application/NotficacoesMulticanais.Application.csproj", "NotficacoesMulticanais.Application/"]
-COPY ["NotficacoesMulticanais.Domain/NotficacoesMulticanais.Domain.csproj", "NotficacoesMulticanais.Domain/"]
+COPY ["NotficacoesMultcanais.Domain/NotficacoesMulticanais.Domain.csproj", "NotficacoesMulticanais.Domain/"]
 COPY ["NotficacoesMulticanais.Infraestructure/NotficacoesMulticanais.Infraestructure.csproj", "NotficacoesMulticanais.Infraestructure/"]
 RUN dotnet restore "NotficacoesMultcanais/NotficacoesMultcanais.csproj"
 COPY . .
