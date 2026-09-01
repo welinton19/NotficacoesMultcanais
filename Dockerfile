@@ -6,9 +6,9 @@ EXPOSE 8080
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /src
 COPY ["NotficacoesMultcanais/NotficacoesMultcanais.csproj", "NotficacoesMultcanais/"]
-COPY ["NotificacoesMultcanais.Application/NotificacoesMultcanais.Application.csproj", "NotificacoesMultcanais.Application/"]
-COPY ["NotificacoesMultcanais.Domain/NotificacoesMultcanais.Domain.csproj", "NotificacoesMultcanais.Domain/"]
-COPY ["NotificacoesMultcanais.Infraestructure/NotificacoesMultcanais.Infraestructure.csproj", "NotificacoesMultcanais.Infraestructure/"]
+COPY ["NotficacoesMultcanais.Application/NotficacoesMultcanais.Application.csproj", "NotficacoesMultcanais.Application/"]
+COPY ["NotficacoesMultcanais.Domain/NotficacoesMultcanais.Domain.csproj", "NotficacoesMultcanais.Domain/"]
+COPY ["NotficacoesMulticanais.Infraestructure/NotficacoesMulticanais.Infraestructure.csproj", "NotficacoesMulticanais.Infraestructure/"]
 RUN dotnet restore "NotficacoesMultcanais/NotficacoesMultcanais.csproj"
 COPY . .
 WORKDIR "/src/NotficacoesMultcanais"
